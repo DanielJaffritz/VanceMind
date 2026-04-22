@@ -5,7 +5,7 @@ export default function Header() {
     <section className="p-5 md:p-15 bg-linear-to-t from-background via-degraded_1 to-degraded_2 w-screen">
       <nav className="mx-5 p-1.5 rounded-3xl flex flex-row bg-background items-center justify-between">
         <div className="flex flex-row items-center">
-          <img src="appLogo.png" className="w-1/16" />
+          <img src="appLogo.png" className="w-13" />
           <h2 className="text-foreground font-semibold">VanceMind</h2>
         </div>
         <Link href="/login" className="bg-button hover:bg-accent p-1.5 rounded-3xl px-5">Log In</Link>
