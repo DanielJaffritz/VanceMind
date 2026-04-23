@@ -32,7 +32,6 @@ export default function SignUpForm() {
       password: formData.get("password") as string
     }
     handleRegister(values)
-    console.log(values)
 
   }
   async function handleRegisterWithGoogle() {

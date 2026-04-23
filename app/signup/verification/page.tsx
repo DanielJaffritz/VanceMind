@@ -5,7 +5,7 @@ export default function Verification() {
     <div className="flex flex-col justify-center items-center">
       <h1>Please verify your email before sign in</h1>
       <Link href="/dashboard"></Link>
-      <p>Did not received an email? <button>resend here</button></p>
+      <p>Did not received an email? <button className="text-accent">resend here</button></p>
     </div>
   )
 }
